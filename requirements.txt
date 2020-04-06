@@ -1,5 +1,7 @@
 ipywidgets
-pandas
-pandas_datareader
-plotly
+pandas==1.0.3
+pandas_datareader==0.8.1
+plotly==4.5.4
+mplfinance>=0.12.3a3
+
 -e git+https://github.com/scifani/yfinance.git#egg=yfinance
