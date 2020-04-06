@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+.python-version
+
+# Django stuff:
+*.log
+
+# Ide
+.idea
+
+src/build/
+src/dist/
+src/*.egg-info
+venv/
+build/
+dist/
+
+.ipynb_checkpoints/
+iframe_figures/
