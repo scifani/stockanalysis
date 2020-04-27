@@ -1,5 +1,12 @@
-# stockanalysis
+# Automatic Stock Analysis Framework
 
-Environment setup based on Jupyter minimal image with Plotly extension (see https://metalblueberry.github.io/post/howto/2019-12-01_python_jupyter_notebook_with_plotly_support/)
+##### Environment
+Environment setup based on Jupyter minimal image
 
+##### Core components
+Everything is built upon Pandas and Numpy. The following libraries are also used:
+* yfinance [https://github.com/scifani/yfinance] - Yahoo! Finance market data downloader
+* ta [https://github.com/bukosabino/ta] - Technical Analysis Library
+* mplfinance [https://github.com/matplotlib/mplfinance] -  matplotlib utilities for the visualization, and visual analysis, of financial data
+* plotly
 
