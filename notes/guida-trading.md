@@ -16,5 +16,16 @@ Charles Dow notò che per essere valido
 #### Metodo del prezzo puro
 Individuare massimi e minimi relativi, confrontando al contempo i massimi e i minimi precedenti con quelli più recenti.
 **L'individuazione degli swing**, tuttavia non è banale. Quello che si intende per swing **dipende dall'orizzonte temporale** che si sta analizzando. Su un grafico intraday a 5 minuti uno swing potrebbe durare 30 minuti, su uno giornaliero da settimane a mesi, su uno settimanale da alcuni mesi a un anno.
-__FIG_1_1__: Grafico giornaliero Dow Jones Industrial Average Gennaio-Ottobre 2006
-<FIG>
+![Fig. 1.1 - Grafico giornaliero Dow Jones Industrial Average Gennaio-Ottobre 2006](./images/Fig_1_1.JPG)
+Nei grafici giornalieri si possono utilizzare i seguenti parametri:
+
+**Variazione % prezzo**
+- minore 5% è probabilmente troppo poco
+- 5% - 15% è il riferimento più attendibile
+- maggiore 15% è probabilmente troppo
+
+**Durata o giorni**
+- minore 1 mese è probabilmente troppo poco
+- 1-6 mesi è il riferimento più attendibile
+- maggiore 6 mesi è probabilmente troppo
+
