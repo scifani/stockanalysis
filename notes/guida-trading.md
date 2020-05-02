@@ -1,3 +1,8 @@
+---
+title: Trading Notes
+modified: 2020-05-02T18:11:40+02:00
+---
+
 # Guida Completa al Trading - by Corey Rosenbloom
 ## Trend
 Tendenza diffusa, da parte del prezzo di un'azione o di un mercato, di muoversi nella stessa direzione nel corso del tempo.
@@ -30,4 +35,3 @@ Nei grafici giornalieri si possono utilizzare i seguenti parametri:
 - minore 1 mese è probabilmente troppo poco
 - 1-6 mesi è il riferimento più attendibile
 - maggiore 6 mesi è probabilmente troppo
-
