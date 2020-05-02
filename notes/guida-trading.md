@@ -1,6 +1,6 @@
 ---
 title: Trading Notes
-modified: 2020-05-02T18:11:40+02:00
+modified: 2020-05-02T18:55:23+02:00
 ---
 
 # Guida Completa al Trading - by Corey Rosenbloom
@@ -35,3 +35,26 @@ Nei grafici giornalieri si possono utilizzare i seguenti parametri:
 - minore 1 mese è probabilmente troppo poco
 - 1-6 mesi è il riferimento più attendibile
 - maggiore 6 mesi è probabilmente troppo
+
+### Inversioni del trend
+
+Il prezzo deve completare un processo specifico perchè si possa dichiarare l'inversione di un trend. Con il metodo del prezzo puro ci sono due modi:
+
+- prezzo, partendo da un massimo (M1), forma un primo minimo inferiore (m1), poi un massimo inferiore (M2 < M1) e poi riscende sotto  m1
+- prezzo, partendo da un massimo (M1), forma un massimo inferiore (M2 < M1) e poi scende sotto al minimo precedente. Per un'ulteriore conferma si può attendere la formazione del minimo e di un  nuovo massimo inferiore (M3 < M2)
+
+Il  secondo caso ha un punto di inversione aggressivo ed un secondo più prudente. Questo significa che **la conferma ha sempre un costo**.
+
+<FIG_1_3>
+
+### Metodo della media mobile
+
+Il metodo della media mobile utilizza una media mobile di breve (20 periodi), medio (50 periodi), lungo (200 periodi) termine per valutare la struttura del trend.
+Il periodo dipende dal grafico, un giorno su un grafico giornaliero, una settimana su uno settimanale, ecc.
+L'**orientamento più rialzista** si ha quando il prezzo è sopra la media di periodo 20, la quale è maggiore di quella di periodo 50, che a sua volta è maggiore di quella di periodo 200.
+L'**orientamento più ribassista** si ha invece quando il prezzo è minore della media di periodo 20, la quale è minore di quella di periodo 50, che a sua volta è minore di quella di periodo 200.
+Inoltre, gli __incroci delle medie mobili__ fanno presagire delle inversioni del trend ma, come nel caso del metodo del prezzo puro, richiedono una conferma ufficiale dell'inversione.
+
+### Medie mobili semplici ed esponenziali
+
+La media mobile semplice (SMA) attribuisce lo stesso peso a ogni giorno, dando al prezzo di 50 giorni fa la stessa importanza rispetto al prezzo di ieri.
