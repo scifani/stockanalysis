@@ -76,3 +76,17 @@ Un **gap**, ossia una variazione consistente e improvvisa del prezzo, è per def
 
 ![Fig. 2.1 - Un gap come impulso del momentum per Amazon il 23 Ottobre 2009](./images/Fig_2_1.JPG)
 
+Non tutti i gap si traducono in una persistenza del trend. Si distinguono:
+- **breakaway gap** si creano all'inizio di un nuovo trend, più o meno al momento di un'inversione confermata del trend
+- **runaway** o **measured gap** si creano di solito a metà del trend 
+- **exhaustion gap** si creano alla fine di un trend prolungato e vengono colmati immediatamente
+
+![Fig. 2.2 - Due gap e due impulsi del volume nel grafico giornaliero di Electronic Arts](./images/Fig_2_2.JPG)
+
+##### Indicatore Momentum
+Mostra la differenza tra il prezzo attuale e quello di X giorni fa, dove X in genere vale 14 giorni.
+La figura mostra l'utilizzo dell'indicatore momentum per confrontare gli swing dell'oscillatore e del prezzo (NML = nuovo minimo del momentum, Div = divergenza del momentum)
+
+![Fig. 2.3 - Indicatore momentum](./images/Fig_2_3.JPG)
+
+L'oscillatore dovrebbe comportarsi in maniera simile al prezzo. Se nuovi minimi del prezzo corrispondono a nuovi minimi dell'oscillatore allora ci si può aspettare un ulteriore ribasso del prezzo. In base alla stessa logica, nuovi massimi del prezzo in corrispondenza di nuovi massimi dell'oscillatore lasciano presagire un ulteriore aumento del prezzo.
