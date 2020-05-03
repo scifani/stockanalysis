@@ -36,8 +36,7 @@ Nei grafici giornalieri si possono utilizzare i seguenti parametri:
 - 1-6 mesi è il riferimento più attendibile
 - maggiore 6 mesi è probabilmente troppo
 
-### Inversioni del trend
-
+##### Inversioni del trend
 Il prezzo deve completare un processo specifico perchè si possa dichiarare l'inversione di un trend. Con il metodo del prezzo puro ci sono due modi:
 
 - prezzo, partendo da un massimo (M1), forma un primo minimo inferiore (m1), poi un massimo inferiore (M2 < M1) e poi riscende sotto  m1
@@ -45,16 +44,35 @@ Il prezzo deve completare un processo specifico perchè si possa dichiarare l'in
 
 Il  secondo caso ha un punto di inversione aggressivo ed un secondo più prudente. Questo significa che **la conferma ha sempre un costo**.
 
-<FIG_1_3>
+![Fig. 1.3 - I due metodi per rilevare inversioni di trend con il criterio del prezzo puro](./images/Fig_1_3.JPG)
 
-### Metodo della media mobile
-
+#### Metodo della media mobile
 Il metodo della media mobile utilizza una media mobile di breve (20 periodi), medio (50 periodi), lungo (200 periodi) termine per valutare la struttura del trend.
 Il periodo dipende dal grafico, un giorno su un grafico giornaliero, una settimana su uno settimanale, ecc.
 L'**orientamento più rialzista** si ha quando il prezzo è sopra la media di periodo 20, la quale è maggiore di quella di periodo 50, che a sua volta è maggiore di quella di periodo 200.
 L'**orientamento più ribassista** si ha invece quando il prezzo è minore della media di periodo 20, la quale è minore di quella di periodo 50, che a sua volta è minore di quella di periodo 200.
 Inoltre, gli __incroci delle medie mobili__ fanno presagire delle inversioni del trend ma, come nel caso del metodo del prezzo puro, richiedono una conferma ufficiale dell'inversione.
 
-### Medie mobili semplici ed esponenziali
+##### Medie mobili semplici ed esponenziali
+La **media mobile semplice** (SMA) attribuisce lo stesso peso a ogni giorno, dando al prezzo di 50 giorni fa la stessa importanza rispetto al prezzo di ieri. La **media mobile esponenziale** (EMA) dà invece maggior rilievo alle barre recenti e meno importanza al passato. Queste tendono perciò a reagire più rapidamente alle variazioni improvvise del prezzo.
 
-La media mobile semplice (SMA) attribuisce lo stesso peso a ogni giorno, dando al prezzo di 50 giorni fa la stessa importanza rispetto al prezzo di ieri.
+##### Inversioni del trend
+Utilizzando il metodo della media mobile, perchè un mercato passi da un trend ascendente ad uno discendente su un grafico giornaliero, dovranno verificarsi tutte le seguenti condizioni:
+- prezzo deve scendere sotto la MM a 20 giorni e poi sotto la MM a 50 giorni
+- la MM a 20 giorni deve incrociare al ribasso la MM a 50 giorni
+- il prezzo deve incrociare a ribasso la MM a 200 giorni
+- le MM a 20 e 50 giorni devono incrociare a ribasso la MM a 200 giorni
+Queste fasi non devono necessariamente essere sequenziali. Inoltre, si rischia di aspettare troppo se si aspetta che il prezzo e le medie di più breve termine scendano al di sotto della MM a 200 periodi.
+
+![Fig. 1.5 - Dow Jones, passaggio da trend ascendente a trend discendente utilizzando MM a 20, 50, 200 giorni](./images/Fig_1_5.JPG)
+
+![Fig. 1.7 - Dow Jones, passaggio da trend discendente a trend ascendente utilizzando MM a 20, 50, 200 giorni](./images/Fig_1_7.JPG)
+
+
+## Momentum
+Il prezzo tende a rimanere stazionario (range-bound), oppure a salire o scendere con un trend stabile finché una forza esterna, che si manifesta sottoforma di squilibrio tra offerta e domanda, non viene a rompere l’equilibrio.
+Il **momentum** rappresenta una variazione del prezzo nel corso di un determinato periodo di tempo. Le grandi variazioni (accelerazioni) rappresentano significativi incrementi del momentum ed indicano che il prezzo continuerà a viaggiare nella direzione in cui si verifica l'esplosione del momentum.
+Un **gap**, ossia una variazione consistente e improvvisa del prezzo, è per definizione un'esplosione del momentum
+
+![Fig. 2.1 - Un gap come impulso del momentum per Amazon il 23 Ottobre 2009](./images/Fig_2_1.JPG)
+
