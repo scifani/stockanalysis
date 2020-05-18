@@ -83,10 +83,27 @@ Non tutti i gap si traducono in una persistenza del trend. Si distinguono:
 
 ![Fig. 2.2 - Due gap e due impulsi del volume nel grafico giornaliero di Electronic Arts](./images/Fig_2_2.JPG)
 
-##### Indicatore Momentum
+##### L'oscillatore Momentum
 Mostra la differenza tra il prezzo attuale e quello di X giorni fa, dove X in genere vale 14 giorni.
 La figura mostra l'utilizzo dell'indicatore momentum per confrontare gli swing dell'oscillatore e del prezzo (NML = nuovo minimo del momentum, Div = divergenza del momentum)
 
 ![Fig. 2.3 - Indicatore momentum](./images/Fig_2_3.JPG)
 
 L'oscillatore dovrebbe comportarsi in maniera simile al prezzo. Se nuovi minimi del prezzo corrispondono a nuovi minimi dell'oscillatore allora ci si può aspettare un ulteriore ribasso del prezzo. In base alla stessa logica, nuovi massimi del prezzo in corrispondenza di nuovi massimi dell'oscillatore lasciano presagire un ulteriore aumento del prezzo.
+
+Mentre il momentum rivela la solidità o debolezza di un trend, le **divergenze** avvertono di una possibile inversione del trend. Una divergenza si verifica quando l'oscillatore e il prezzo sono in disaccordo e mettono in luce un indebolimento del trend e la possibilità di un'inversione futura di esso.
+- **divergenza negativa**: nuovo massimo del prezzo ma massimo inferiore dell'oscillatore
+- **divergenza positiva**: nuovo minimo del prezzo ma minimo superiore inferiore
+
+L'indicatore momentum conferma un massimo del prezzo quando si forma un nuovo massimo relativo nello stesso momento in cui si forma un nuovo massimo sul prezzo. Ciò indica che il trend è ancora solido.
+Le divergenze, invece, inviano il messaggio opposto e segnalano un'attenuazione del trend
+
+##### Indicatore Rate of Change (ROC)
+Da le stesse informazioni dell'indicatore momentum ma in termini percentuali:
+
+ROC = [(Chiusura di oggi - Chiusura di N periodi fa)/(Chiusura di N periodi fa)]*100
+
+##### L'oscillatore MACD 3/10
+Un altro mezzo per rilevare le caratteristiche del momentum è l'indicatore __Moving Average Convergence Divergence__ (MACD) che rappresenta graficamente la differenza tra due medie mobili. La configurazione di default è 12,26,9: i primi due numeri si riferiscono alle EMA di breve e lungo periodo, ed il terzo è un parametro di smoothing. La differenza tra la media di breve e lungo termine crea la linea MACD, che smussata con il terzo parametro crea la linea del segnale. La configurazione consigliata qui è la **3,10,0**, che è molto più reattiva rispetto all'originale.
+
+Quando l'EMA più veloce ha un valore superiore rispetto a quella più lenta, possiamo assumere che il prezzo stia registrando uno swing rialzista.
