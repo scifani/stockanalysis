@@ -109,3 +109,5 @@ Un altro mezzo per rilevare le caratteristiche del momentum è l'indicatore __Mo
 Quando l'EMA più veloce ha un valore superiore rispetto a quella più lenta, possiamo assumere che il prezzo stia registrando uno swing rialzista.
 
 ![Fig. 2.10 - Confronto MACD 3,10,16 e 12,26,9](./images/Fig_2_10.JPG)
+
+Come si vede in figura, il MACD 3,10 essendo più reattivo riesce a cogliere le divergenze più velocemente rispetto alla versione standard. La divergenza multipla è un segnale molto forte di probabile inversione del trend. Spesso gli operatori intepretano infatti le divergenze singole come il segnale di raccogliere i profitti, mentre quelle multiple come un segnale di entrata in un trade su inversione.
