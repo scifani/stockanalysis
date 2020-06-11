@@ -115,5 +115,12 @@ Come si vede in figura, il MACD 3,10 essendo più reattivo riesce a cogliere le 
 
 ## Principio di Alternanza del prezzo
 Il principio dell'alternanza del prezzo asserisce che il prezzo subisce due fasi alterne, di contrazione e di espansione del range. Tale principio spiega anche perchè alcuni indicatori funzionano bene per un dato periodo di tempo, salvo poi generare una serie di trade perdenti.
-- **contrazione del range**: detta anche consolidamento del range, è una fase di compressione laterale che assume la forma di un rettangolo delimitato da trendline orizzontali ben definite, oppure un triangolo con trendline convergenti. E' caratterizzata da bassa volatilità e basso range.
-- **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso. Un mercato in espansione continua a espandersi fin quando acquirenti e venditori non raggiungono un nuovo equilibrio del prezzo.
+- **contrazione del range**: detta anche consolidamento del range, è una fase di compressione laterale che assume la forma di un rettangolo delimitato da trendline orizzontali ben definite, oppure un triangolo con trendline convergenti. E' caratterizzata da bassa volatilità e basso range. Nei grafici si identificano una **linea superiore di resistenza**, nella quale i venditori aprono nuove posizioni allo scoperto in previsione di un calo, una **linea inferiore di supporto**, nella quale gli acquirenti entreranno nel mercato, ed una **linea del valore equo** o punto medio.
+Una volta che un determinato livello di prezzo viene "testato" per due volte, spesso conviene tracciare una trendline e prolungarla nel futuro. Fin tanto che il prezzo rimane all'interno di queste trendline orizzontali, i trader possono trarre vantaggio da questi confini.
+
+![Fig. 3.1 - ElectronicArts durante fase di consolidamento](./images/Fig_3_1.JPG)
+
+- **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso. Un mercato in espansione continua a espandersi fin quando acquirenti e venditori non raggiungono un nuovo equilibrio del prezzo.Notizie o annunci economici inaspettati rappresentano spesso i **catalizzatori** che spingono il prezzo a uscire dai confini e innescano un movimento di espansione del range a partire da un improvviso squilibrio tra offerta e domanda.
+
+
+
