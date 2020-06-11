@@ -9,6 +9,7 @@ Tendenza diffusa, da parte del prezzo di un'azione o di un mercato, di muoversi 
 I trend possono essere di lungo, medio, o breve termine e si dividono in:
 -   _ascendente_ = sequenza di massimi / minimi relativi crescenti (_swing rialzista_)
 -   _discendente_ = sequenza di massimi / minimi discendenti (_swing ribassista_)
+-   _laterale_ = sequenza di massimi / minimi intorno ad una media costante
 
 Una volta consolidato **ha più probabilità di continuare che di invertirsi**. D'altro canto, un trend non può durare per sempre, perchè **l'andamento ciclico del mercanto non si arresta mai**.
 L'obiettivo dovrebbe sempre essere l'individuazione della _struttura del trend_ e al contempo di saper cogliere i _segnali di inversione_ di un trend maturo.
@@ -111,3 +112,8 @@ Quando l'EMA più veloce ha un valore superiore rispetto a quella più lenta, po
 ![Fig. 2.10 - Confronto MACD 3,10,16 e 12,26,9](./images/Fig_2_10.JPG)
 
 Come si vede in figura, il MACD 3,10 essendo più reattivo riesce a cogliere le divergenze più velocemente rispetto alla versione standard. La divergenza multipla è un segnale molto forte di probabile inversione del trend. Spesso gli operatori intepretano infatti le divergenze singole come il segnale di raccogliere i profitti, mentre quelle multiple come un segnale di entrata in un trade su inversione.
+
+##Principio di Alternanza del prezzo
+Il principio dell'alternanza del prezzo asserisce che il prezzo subisce due fasi alterne, di contrazione e di espansione del range. Tale principio spiega anche perchè alcuni indicatori funzionano bene per un dato periodo di tempo, salvo poi generare una serie di trade perdenti.
+- **contrazione del range**: fase di compressione laterale che assume la forma di un rettangolo delimitato da trendline orizzontali ben definite, oppure un triangolo con trendline convergenti.
+- **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso.
