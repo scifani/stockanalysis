@@ -113,7 +113,7 @@ Quando l'EMA più veloce ha un valore superiore rispetto a quella più lenta, po
 
 Come si vede in figura, il MACD 3,10 essendo più reattivo riesce a cogliere le divergenze più velocemente rispetto alla versione standard. La divergenza multipla è un segnale molto forte di probabile inversione del trend. Spesso gli operatori intepretano infatti le divergenze singole come il segnale di raccogliere i profitti, mentre quelle multiple come un segnale di entrata in un trade su inversione.
 
-##Principio di Alternanza del prezzo
+## Principio di Alternanza del prezzo
 Il principio dell'alternanza del prezzo asserisce che il prezzo subisce due fasi alterne, di contrazione e di espansione del range. Tale principio spiega anche perchè alcuni indicatori funzionano bene per un dato periodo di tempo, salvo poi generare una serie di trade perdenti.
-- **contrazione del range**: fase di compressione laterale che assume la forma di un rettangolo delimitato da trendline orizzontali ben definite, oppure un triangolo con trendline convergenti.
-- **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso.
+- **contrazione del range**: detta anche consolidamento del range, è una fase di compressione laterale che assume la forma di un rettangolo delimitato da trendline orizzontali ben definite, oppure un triangolo con trendline convergenti. E' caratterizzata da bassa volatilità e basso range.
+- **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso. Un mercato in espansione continua a espandersi fin quando acquirenti e venditori non raggiungono un nuovo equilibrio del prezzo.
