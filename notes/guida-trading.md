@@ -122,5 +122,8 @@ Una volta che un determinato livello di prezzo viene "testato" per due volte, sp
 
 - **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso. Un mercato in espansione continua a espandersi fin quando acquirenti e venditori non raggiungono un nuovo equilibrio del prezzo.Notizie o annunci economici inaspettati rappresentano spesso i **catalizzatori** che spingono il prezzo a uscire dai confini e innescano un movimento di espansione del range a partire da un improvviso squilibrio tra offerta e domanda.
 
-
+#### Feedback Loop
+I movimenti dei prezzi delle azioni si verificano principalmente a causa degli squilibri tra domanda e offerta. Questi portano spesso a dei "cicli" o "feedback loop" che possono essere:
+- **positivi** caratterizzati da un solido movimento del prezzo in una direzione, di solito quando un mercato sovrasta l'altro, per cui prezzi più elevati comportano prezzi più elevati: i tori acquistano volentieri delle quote e i prezzi maggiori fanno si che gli orsi riacquistino azioni per coprire le loro posizioni. In modo analogo, prezzi più bassi comportano prezzi più bassi: gli orsi vendono volentieri azioni allo scoperto e i prezzi minori fanno si che i tori vendano azioni loro malgrado.
+- **negativi** prezzi più elevati comportano prezzi più bassi, i quali comportano prezzi più elevati, nell'ambito di una fase di consolidamento. Un rally del prezzo verso il livello di resistenza fa si che gli orsi vendano volentieri quote allo scoperto in previsione di acquisti futuri, mentre gli acquirenti vendano volentieri per trarre profitti al livello di resistenza. Quando poi il prezzo scende a un livello inferiore i venditori allo scoperto riacquistano volentieri e i tori acquistano volentieri in previsione di un rally futuro.
 
