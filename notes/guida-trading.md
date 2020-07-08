@@ -130,13 +130,13 @@ I movimenti dei prezzi delle azioni si verificano principalmente a causa degli s
 #### Scelta degli indicatori
 Tra i più popolari indicatori di trading alcuni funzionano bene in fasi di espansione, altri in fase di consolidamento. Tra quelli che funzionano bene nelle fasi di espansione ci sono le **medie mobili**, mentre particolarmente efficaci nelle fasi di contrazione sono gli oscillatori dell'ipercomprato/ipervenduto come lo Stochastic o il Relative Strength Index (RSI).
 
-L'indicatore stocastico ha la seguente formula:
+L'**indicatore stocastico** ha la seguente formula:
 
 <img src="https://render.githubusercontent.com/render/math?math=K=100 * ((CC - LL) / (HH - LL))">
 
 dove _**CC**_ = chiusura corrente, _**LL**_ = lowest low in X periodi, _**HH**_ = highest high in X periodi.
 
-L'indicatore RSI ha la seguente formula:
+L'**indicatore RSI** ha la seguente formula:
 
 <img src="https://render.githubusercontent.com/render/math?math=RSI=100 * (U / (U + D))">
 
@@ -144,3 +144,6 @@ dove _**U**_ è la media delle differenze di chiusura al rialzo di X periodi e _
 
 Per entrambi gli indicatori il numero di periodi consigliato pari a 14 ed entrambi sono "range-bound", ovvero variano all'interno di un range compreso tra 0 e 100, e sono identificabili delle soglie superiori di ipercomprato ed inferiori di ipervenduto. Per lo stocastico tali soglie sono 20 - 80, per l'RSI 30 - 70.
 
+Come si può vedere dalla figura 3.9 gli indicatori stocastico e RSI funzionano bene all'interno di un range consolidato (feedback negativo), ma se utilizzati in fase di espansione generano numerosi segnali "difettosi".
+
+![Fig. 3.9 - Indicatore stocastico e RSI per Sears Holdings](./images/Fig_3_9.JPG)
