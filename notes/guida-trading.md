@@ -127,3 +127,20 @@ I movimenti dei prezzi delle azioni si verificano principalmente a causa degli s
 - **positivi** caratterizzati da un solido movimento del prezzo in una direzione, di solito quando un mercato sovrasta l'altro, per cui prezzi più elevati comportano prezzi più elevati: i tori acquistano volentieri delle quote e i prezzi maggiori fanno si che gli orsi riacquistino azioni per coprire le loro posizioni. In modo analogo, prezzi più bassi comportano prezzi più bassi: gli orsi vendono volentieri azioni allo scoperto e i prezzi minori fanno si che i tori vendano azioni loro malgrado.
 - **negativi** prezzi più elevati comportano prezzi più bassi, i quali comportano prezzi più elevati, nell'ambito di una fase di consolidamento. Un rally del prezzo verso il livello di resistenza fa si che gli orsi vendano volentieri quote allo scoperto in previsione di acquisti futuri, mentre gli acquirenti vendano volentieri per trarre profitti al livello di resistenza. Quando poi il prezzo scende a un livello inferiore i venditori allo scoperto riacquistano volentieri e i tori acquistano volentieri in previsione di un rally futuro.
 
+#### Scelta degli indicatori
+Tra i più popolari indicatori di trading alcuni funzionano bene in fasi di espansione, altri in fase di consolidamento. Tra quelli che funzionano bene nelle fasi di espansione ci sono le **medie mobili**, mentre particolarmente efficaci nelle fasi di contrazione sono gli oscillatori dell'ipercomprato/ipervenduto come lo Stochastic o il Relative Strength Index (RSI).
+
+L'indicatore stocastico ha la seguente formula:
+
+<img src="https://render.githubusercontent.com/render/math?math=K=100 * ((CC - LL) / (HH - LL))">
+
+dove _**CC**_ = chiusura corrente, _**LL**_ = lowest low in X periodi, _**HH**_ = highest high in X periodi.
+
+L'indicatore RSI ha la seguente formula:
+
+<img src="https://render.githubusercontent.com/render/math?math=RSI=100 * (U / (U + D))">
+
+dove _**U**_ è la media delle differenze di chiusura al rialzo di X periodi e _**D**_ è la media del valore assoluto delle differenze di chiusura al ribasso di X periodi.
+
+Per entrambi gli indicatori il numero di periodi consigliato pari a 14 ed entrambi sono "range-bound", ovvero variano all'interno di un range compreso tra 0 e 100, e sono identificabili delle soglie superiori di ipercomprato ed inferiori di ipervenduto. Per lo stocastico tali soglie sono 20 - 80, per l'RSI 30 - 70.
+
