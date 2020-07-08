@@ -132,13 +132,13 @@ Tra i più popolari indicatori di trading alcuni funzionano bene in fasi di espa
 
 L'**indicatore stocastico** ha la seguente formula:
 
-<img src="https://render.githubusercontent.com/render/math?math=K=100 * ((CC - LL) / (HH - LL))">
+K = 100 * ((_CC_ - _LL_) / (_HH_ - _LL_))
 
 dove _**CC**_ = chiusura corrente, _**LL**_ = lowest low in X periodi, _**HH**_ = highest high in X periodi.
 
 L'**indicatore RSI** ha la seguente formula:
 
-<img src="https://render.githubusercontent.com/render/math?math=RSI=100 * (U / (U + D))">
+RSI = 100 * (_U_ / (_U_ + _D_))
 
 dove _**U**_ è la media delle differenze di chiusura al rialzo di X periodi e _**D**_ è la media del valore assoluto delle differenze di chiusura al ribasso di X periodi.
 
