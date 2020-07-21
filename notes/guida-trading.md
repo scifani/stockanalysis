@@ -148,7 +148,7 @@ RSI = 100 * (_U_ / (_U_ + _D_))
 
 dove _**U**_ è la media delle differenze di chiusura al rialzo di X periodi e _**D**_ è la media del valore assoluto delle differenze di chiusura al ribasso di X periodi.
 
-Per entrambi gli indicatori il numero di periodi consigliato pari a 14 ed entrambi sono "range-bound", ovvero variano all'interno di un range compreso tra 0 e 100, e sono identificabili delle soglie superiori di ipercomprato ed inferiori di ipervenduto. Per lo stocastico tali soglie sono 20 - 80, per l'RSI 30 - 70.
+_Per entrambi gli indicatori il numero di periodi consigliato pari a 14 ed entrambi sono "range-bound", ovvero variano all'interno di un range compreso tra 0 e 100. Sono identificabili delle soglie superiori di ipercomprato ed inferiori di ipervenduto. Per lo stocastico tali soglie sono 20 - 80, per l'RSI 30 - 70._
 
 Come si può vedere dalla figura 3.9 gli indicatori stocastico e RSI funzionano bene all'interno di un range consolidato (feedback negativo), ma se utilizzati in fase di espansione generano numerosi segnali "difettosi".
 
@@ -158,3 +158,15 @@ L'**indicatore Bollinger Bands** prende in considerazione gli ultimi 20 periodi 
 Tuttavia, una volta che il prezzo esce dalla stabilità del trading range per entrare in un feedback loop negativo, comincia a rimanere al di fuori di una delle due bande, superiore o inferiore, in base alla direzione del trend.
 
 ![Fig. 3.10 - Indicatore bande di Bollinger](./images/Fig_3_10.JPG)
+
+L'**indicatore ADX** (_Average Directional Index_) può risultare di grande aiuto nell'individuare l'entità della fase di feedback nella quale una particolare azione o mercato si trova. Esso calcola la forza di un trend in atto o ne rivela l'assenza ed è la media di due segnali: l'indicatore direzionale positivo che misura la forza di prezzi in salita e l'indicatore direzionale negativo che misura la forza di prezzi in discesa.
+
+In presenza di un importante movimento al rialzo l'indice direzionale positivo sale mentre quello negativo scende, facendo aumentare la media dei due e generando il valore dell'ADX. Tale valore assume i seguenti significati:
+- _maggiore di 30_:  il prezzo ha sviluppato una fase di espansione del range
+- _tra 20 e 30_: potenziale fase di transizione
+- _minore di 20_: assenza di un trend
+- _minore di 15_: periodo prolungato di contrazione del range
+
+Pertanto l'ADX non rivela la direzione di un movimento ma piuttosto l'intensità.
+
+![Fig. 3.14 - Indicatore ADX durante le fasi di espansione e contrazione di Ebay](./images/Fig_3_14.JPG)
