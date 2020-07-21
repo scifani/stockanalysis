@@ -157,4 +157,4 @@ Come si può vedere dalla figura 3.9 gli indicatori stocastico e RSI funzionano 
 L'**indicatore Bollinger Bands** prende in considerazione gli ultimi 20 periodi e traccia il prezzo medio, corrispondente alla SMA di periodo 20, a partire dal quale calcola la deviazione standard. Infatti, in una distribuzione Normale il 95% delle osservazioni sono collocate entro due deviazioni standard della media. E' per questo che tale indicatore funziona bene nelle fasi di contrazione in cui il prezzo oscilla attorno ad un valore medio di riferimento.
 Tuttavia, una volta che il prezzo esce dalla stabilità del trading range per entrare in un feedback loop negativo, comincia a rimanere al di fuori di una delle due bande, superiore o inferiore, in base alla direzione del trend.
 
-
+![Fig. 3.10 - Indicatore bande di Bollinger](./images/Fig_3_10.JPG)
