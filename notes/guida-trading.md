@@ -122,13 +122,19 @@ Una volta che un determinato livello di prezzo viene "testato" per due volte, sp
 
 - **espansione del range**: il prezzo esce dai confini di un range ed entra in una fase di movimento sostenuto al rialzo o al ribasso. Un mercato in espansione continua a espandersi fin quando acquirenti e venditori non raggiungono un nuovo equilibrio del prezzo.Notizie o annunci economici inaspettati rappresentano spesso i **catalizzatori** che spingono il prezzo a uscire dai confini e innescano un movimento di espansione del range a partire da un improvviso squilibrio tra offerta e domanda.
 
-#### Feedback Loop
+### Feedback Loop
 I movimenti dei prezzi delle azioni si verificano principalmente a causa degli squilibri tra domanda e offerta. Questi portano spesso a dei "cicli" o "feedback loop" che possono essere:
 - **positivi** caratterizzati da un solido movimento del prezzo in una direzione, di solito quando un mercato sovrasta l'altro, per cui prezzi più elevati comportano prezzi più elevati: i tori acquistano volentieri delle quote e i prezzi maggiori fanno si che gli orsi riacquistino azioni per coprire le loro posizioni. In modo analogo, prezzi più bassi comportano prezzi più bassi: gli orsi vendono volentieri azioni allo scoperto e i prezzi minori fanno si che i tori vendano azioni loro malgrado.
 - **negativi** prezzi più elevati comportano prezzi più bassi, i quali comportano prezzi più elevati, nell'ambito di una fase di consolidamento. Un rally del prezzo verso il livello di resistenza fa si che gli orsi vendano volentieri quote allo scoperto in previsione di acquisti futuri, mentre gli acquirenti vendano volentieri per trarre profitti al livello di resistenza. Quando poi il prezzo scende a un livello inferiore i venditori allo scoperto riacquistano volentieri e i tori acquistano volentieri in previsione di un rally futuro.
 
-#### Scelta degli indicatori
+### Scelta degli indicatori
 Tra i più popolari indicatori di trading alcuni funzionano bene in fasi di espansione, altri in fase di consolidamento. Tra quelli che funzionano bene nelle fasi di espansione ci sono le **medie mobili**, mentre particolarmente efficaci nelle fasi di contrazione sono gli oscillatori dell'ipercomprato/ipervenduto come lo Stochastic o il Relative Strength Index (RSI).
+
+#### Indicatori in fase di espansione
+
+Uno degli indicatori che funziona straordinariamente bene nei movimenti di espansione del range è rappresentato dalle medie mobili, utili soprattutto a definire quale è il trend, come visto nel [metodo della media mobile](#metodo-della-media-mobile).
+
+#### Indicatori in fase di contrazione
 
 L'**indicatore stocastico** ha la seguente formula:
 
@@ -147,3 +153,8 @@ Per entrambi gli indicatori il numero di periodi consigliato pari a 14 ed entram
 Come si può vedere dalla figura 3.9 gli indicatori stocastico e RSI funzionano bene all'interno di un range consolidato (feedback negativo), ma se utilizzati in fase di espansione generano numerosi segnali "difettosi".
 
 ![Fig. 3.9 - Indicatore stocastico e RSI per Sears Holdings](./images/Fig_3_9.JPG)
+
+L'**indicatore Bollinger Bands** prende in considerazione gli ultimi 20 periodi e traccia il prezzo medio, corrispondente alla SMA di periodo 20, a partire dal quale calcola la deviazione standard. Infatti, in una distribuzione Normale il 95% delle osservazioni sono collocate entro due deviazioni standard della media. E' per questo che tale indicatore funziona bene nelle fasi di contrazione in cui il prezzo oscilla attorno ad un valore medio di riferimento.
+Tuttavia, una volta che il prezzo esce dalla stabilità del trading range per entrare in un feedback loop negativo, comincia a rimanere al di fuori di una delle due bande, superiore o inferiore, in base alla direzione del trend.
+
+
