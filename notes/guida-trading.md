@@ -170,3 +170,16 @@ In presenza di un importante movimento al rialzo l'indice direzionale positivo s
 Pertanto l'ADX non rivela la direzione di un movimento ma piuttosto l'intensità.
 
 ![Fig. 3.14 - Indicatore ADX durante le fasi di espansione e contrazione di Ebay](./images/Fig_3_14.JPG)
+
+## Grafici a candele
+
+I grafici a candele forniscono segnali più chiari e informazioni supplementari in corrispondenza di importanti inversioni del mercato, in particolare:
+- rivelano rapidamente variazioni nel rapporto tra domanda e offerta
+- permettono di individuare facilmente i punti di inversione del prezzo
+- confermano altri segnali quando il prezzo si sposta in un'area di supporto o resistenza
+- consentono di entrare in una posizione in modo oggettivo, quando il prezzo sale sopra o scende sotto una candela di inversione
+- rivelano informazioni relative a orizzonti temporali più brevi
+
+![Fig. 4.1 - Candela rialzista e ribassista](./images/Fig_4_1.JPG)
+
+Oltre alla distanza tra apertura e chiusura, la distanza tra le cosiddette ombre o stoppini riflettono la volatilità. Ombre superiori lunghe riflettono un rifiuto del prezzo nel continuare la salita e rappresenta un segnale ribassista, importante quando si produce in corrispondenza di un livello di resistenza che contiene anche una divergenza negativa del momentum o altri segnali di vendita provenienti da altri indicatori.
