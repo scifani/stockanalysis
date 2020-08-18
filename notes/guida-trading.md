@@ -188,10 +188,20 @@ Oltre alla distanza tra apertura e chiusura, la distanza tra le cosiddette ombre
 
 Dal grafico di fig. 4.3 si possono individuare alcuni specifici segnali a candele in corrispondenza dei principali punti di inversione. La differenza tra prezzo di apertura e prezzo di chiusura fornisce indizi sulla relazione tra domanda e offerta: un prezzo che ha chiuso nettamente al di sopra di quello di apertura indica una forza rialzista e viceversa, uno che ha chiuso nettamente sotto al prezzo di apertura indica una debolezza ribassista. Un prezzo che si mantiene stabile tra apertura e chiusura indica neutralità tra domanda e offerta. Particolarmente importante è il range di una barra rispetto alle precedenti, per fare osservazioni sulla volatilità della candela. Le candele con range ristretto (bassa volatilità) possono riflettere un mercato che potenzialmente può invertirsi. Candele solide e di grandi dimensioni possono indicare che si sta sviluppando un movimento di espansione o di inversione del trend.
 
-#### Candele estreme: Marubozu
+#### Candele estreme: Marubozu e Engulfing
 
 La candela rialzista nella quale l'apertura corrisponde al minimo e la chiusura al massimo prende il nome di _marubozu rialzista_. Questa candela indica che gli acquirenti hanno prevalso sui venditori, che potrebbe segnalare l'inizio di un movimento rialzista. Il suo opposto è la _marubozu ribassista_, nella quale l'apertura corrisponde al massimo e la chiusura al minimo.
 
 Le candele estreme segnalano che le probabilità favoriscono la continuazione nella direzione della chiusura della candela sulla base del principio che è più probabile che un trend persista che non che si inverta.
 
 Esiste tuttavia una formazione a candela simile al marubozu che funge da segnale di inversione: si tratta delle _bullish engulfing_ e _bearish engulfing_. Il corpo di una candela engulfing supera quello della precedente ed in alcuni casi ne supera anche massimo e minimo. Queste candele si associano ad un mercato che ha registrato un'improvvisa variazione dello squilibrio tra domanda e offerta e possono indicare l'esatto punto di inversione del prezzo.
+
+Nelle figure seguenti ci sono due grafici a 5 minuti che mostrano come si forma una candela maribozu giornaliera rialzista o ribassista ed un grafico giornaliero che riporta le due maribozu ed i trend che ne sono scaturiti.
+
+![Fig. 4.6 - Formazione maribozu rialzista](./images/Fig_4_6.JPG)
+![Fig. 4.7 - Formazione maribozu ribassista](./images/Fig_4_7.JPG)
+![Fig. 4.8 - Grafico giornaliero con gli esempi 4_6 e 4_7](./images/Fig_4_8.JPG)
+
+La figura seguente mostra un esempio di formazione _bullish engulfing_
+
+![Fig. 4.10 - Grafico giornaliero con esempio di bullish engulfing](./images/Fig_4_10.JPG)
