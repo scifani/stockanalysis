@@ -205,3 +205,11 @@ Nelle figure seguenti ci sono due grafici a 5 minuti che mostrano come si forma 
 La figura seguente mostra un esempio di formazione _bullish engulfing_
 
 ![Fig. 4.10 - Grafico giornaliero con esempio di bullish engulfing](./images/Fig_4_10.JPG)
+
+#### Candele neutrali: Doji e Spinning Top
+
+Le candele _doji_ segnalano l'equilibrio o l'indecisione di acquirenti e venditori. Si formano quando l'apertura coincide quasi con la chiusura. Possono segnalare punti di inversione, perchè domanda e offerta sono state in equilibrio e ogni movimento per rompere questo equilibrio può comportare un'inversione a breve termine. Quando si formano in corrispondenza di un potenziale livello di resistenza a seguito di un rally possono offrire entrate o uscite a basso rischio.
+
+![Fig. 4.14 - Formazione di una candela doji](./images/Fig_4_14.JPG)
+
+Rispetto alle candele doji, le _spinning top_ sono caratterizzate da un corpo leggermente più esteso ma anche queste segnalano l'equilibrio o l'indecisione di acquirenti e venditori e possono marcare un punto di inversione.
