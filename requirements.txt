@@ -1,12 +1,3 @@
-ipywidgets
 pandas
-pandas_datareader
-seaborn
-statsmodel
-sklearn
-mxnet
-plotly
-mplfinance
-ta
 
 -e git+https://github.com/scifani/yfinance.git#egg=yfinance

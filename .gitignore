@@ -20,11 +20,12 @@ pip-delete-this-directory.txt
 
 # Ide
 .idea
+.vscode
 
 src/build/
 src/dist/
 src/*.egg-info
-venv/
+.venv/
 build/
 dist/
 
