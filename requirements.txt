@@ -1,3 +1,7 @@
 pandas
+sklearn
+matplotlib
+tensorflow
+keras
 
 -e git+https://github.com/scifani/yfinance.git#egg=yfinance
