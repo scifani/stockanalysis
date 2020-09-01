@@ -36,7 +36,7 @@ def test_data_preprocessor_split():
     assert len(array_train) == 14
     assert len(array_test) == (len(array) - len(array_train) + dp.look_back)
 
-def test_data_preprocessor_to_matrices():
+def test_data_preprocessor_create_dataset():
 
     array = np.array([[0.0],[1.0],[2.0],[3.0],[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0],[11.0],[12.0],[13.0],[14.0],[15.0],[16.0],[17.0],[18.0],[19.0],[20.0]])
 
@@ -47,7 +47,7 @@ def test_data_preprocessor_to_matrices():
     blocks = int((len(array) - (look_back_ + forward_)) / step_) + 1
 
     dp = DataPreprocessor(look_back=look_back_, forward=forward_)
-    X, Y = dp.array_to_matrices(array, step=step_)
+    X, Y = dp.create_dataset(array, step=step_)
 
-    assert X.shape == (blocks, look_back_, 1)
+    assert X.shape == (blocks, 1, look_back_)
     assert Y.shape == (blocks, forward_)
