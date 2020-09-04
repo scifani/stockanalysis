@@ -29,6 +29,7 @@ Each unit is like a mini-state machine where the gates of the units have weights
 1) https://missinglink.ai/guides/neural-network-concepts/recurrent-neural-network-glossary-uses-types-basic-structure/
 2) https://missinglink.ai/guides/neural-network-concepts/deep-learning-long-short-term-memory-lstm-networks-remember/
 3) https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+4) https://www.altumintelligence.com/articles/a/Time-Series-Prediction-Using-LSTM-Deep-Neural-Networks
 
 ##### Environment
 Environment setup based on Jupyter minimal image
