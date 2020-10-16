@@ -101,9 +101,7 @@ class DataPreprocessor:
         Y = np.array([list(a.ravel()) for a in Y]) # transform Y from (n, m, 1) to (n, m)
 
         # The LSTM network expects the input data (X) to be provided with a specific array structure
-        # in the form of: [samples, time steps, features].
-        # Currently, our data is in the form: [samples, features] and we are framing the problem as 
-        # one time step for each sample. 
+        # in the form of: [samples, time_steps, features].
 
         X = np.reshape(X, (X.shape[0], 1, X.shape[1]))        
 

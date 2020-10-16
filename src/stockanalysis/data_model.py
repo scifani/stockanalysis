@@ -23,19 +23,36 @@ class DataModel:
         self.model.add(Dense(forward))
         self.model.compile(loss='mean_squared_error', optimizer='adam')
 
-    def train(self, epochs, batch_size, X_train, y_train, X_validate=None, y_validate=None):
-        
-        valid_data = None
-        if X_validate is not None and y_validate is not None:
-            valid_data = (X_validate, y_validate)
 
-        history = self.model.fit(X_train,y_train,epochs=epochs,validation_data=valid_data,
-                                shuffle=True,batch_size=batch_size, verbose=2)
+    def train(self, epochs, batch_size, X_train, y_train, X_validate=None, y_validate=None, weights_file=None):
         
-        return history
+        history = None
+        try:
+            valid_data = None
+            if X_validate is not None and y_validate is not None:
+                valid_data = (X_validate, y_validate)
 
-    def predict(self, x):
-        y = self.model.predict(x)
-        return y.reshape(-1, 1)
+            history = self.model.fit(X_train,y_train,epochs=epochs,validation_data=valid_data,
+                                    shuffle=True,batch_size=batch_size, verbose=2)
+
+            if weights_file is not None:
+                self.model.save_weights(weights_file)
+
+            rc = 0
+        except Exception as e:
+            logging.error(e)
+            rc = -1
+        
+        return rc, history
+
+
+    def predict(self, X):        
+
+        y_hat = self.model.predict(X)
+        #y_hat = y_hat.reshape(-1, 1)
+
+        return y_hat
 
     
+    def load_weights(self, weights_file):
+        self.model.load_weights(weights_file)

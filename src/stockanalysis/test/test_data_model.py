@@ -64,11 +64,11 @@ def load_train_predict():
         # shift train predictions for plotting
         trainPredictPlot = numpy.empty_like(dataset.reshape(-1, 1))
         trainPredictPlot[:] = numpy.nan
-        trainPredictPlot[look_back:len(trainPredict)+look_back] = trainPredict
+        trainPredictPlot[look_back:len(trainPredict)+look_back] = trainPredict[:,:,0]
         # shift test predictions for plotting
         testPredictPlot = numpy.empty_like(dataset.reshape(-1, 1))
         testPredictPlot[:] = numpy.nan
-        testPredictPlot[len(trainPredict)+1:len(dataset)] = testPredict
+        testPredictPlot[len(trainPredict)+1:len(dataset)] = testPredict[:,:,0]
         # plot baseline and predictions
         plt.plot(data_preprocessor.denormalize(dataset))
         plt.plot(trainPredictPlot)
