@@ -30,6 +30,17 @@ class DataCollector:
         return array
 
 
+    def get_ticker_info(self, ticker_name, csv_file=None):
+        '''
+            Returns a dictionary containing all the available information about the ticker
+        '''
+        ticker = yf.Ticker(ticker_name)
+
+        info = ticker.get_info()
+
+        return info
+
+
     def load_csv(self, csv_file):
         df = pd.read_csv(csv_file)
                 

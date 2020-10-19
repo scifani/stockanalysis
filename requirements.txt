@@ -1,7 +1,8 @@
 pandas
 sklearn
 matplotlib
+mplfinance
 tensorflow==2.2.0rc4
 keras
-
+lxml
 -e git+https://github.com/scifani/yfinance.git#egg=yfinance
